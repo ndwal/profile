@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+body{
+  background-color: #F9F5E7;
+  font-family:'Courier New', Courier, monospace;
+  color: #A7727D;
+  font-size:medium;
+  line-height:normal;
+}
+
+h1, h2, h3{
+  color: #A7727D;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: medium;
+  line-height: normal;
+}
+
+.container{
+  width: 600px;
+  margin: 0 auto;
+  /*border: 5px solid black;*/
+}
+
+.box{
+  background-color: #F8EAD8;
+  margin-bottom: 5px;
+  /*border: 1px solid black;*/
+  border-radius: 5px;
+  padding: 17px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.button{
+  border: 1px solid white;
+  background-color: #EDDBC7;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.button:hover{
+  background-color: #964A4A;
+  transition: 0.3 ease;
+}
+
+#title_box{
+  text-align: center;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+#image{
+  border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
