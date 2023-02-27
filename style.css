@@ -92,3 +92,7 @@ a{
     width: 300px;
   }
 }
+
+#flags{
+  text-align: center;
+}
